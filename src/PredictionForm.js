@@ -216,8 +216,9 @@ const PredictionForm = () => {
           <label>English Difficulties:</label>
           <select name="english_difficulties" value={formData.english_difficulties} onChange={handleChange} required>
             <option value={0}>Much</option>
-            <option value={1}>None</option>
-            <option value={2}>Some</option>
+            <option value={1}>Not at all</option>
+            <option value={2}>Not much</option>
+            <option value={3}>Very much</option>
           </select>
         </div>
 
@@ -225,13 +226,12 @@ const PredictionForm = () => {
         <div>
           <label>Ethnicity:</label>
           <select name="ethnicity" value={formData.ethnicity} onChange={handleChange} required>
-            <option value={0}>African</option>
+            <option value={0}>Asian Indian</option>
             <option value={1}>Chinese</option>
-            <option value={2}>Hispanic</option>
-            <option value={3}>Middle Eastern</option>
+            <option value={2}>Filipino</option>
+            <option value={3}>Korean</option>
             <option value={4}>Other</option>
             <option value={5}>Vietnamese</option>
-            <option value={6}>White</option>
           </select>
         </div>
 
@@ -239,10 +239,10 @@ const PredictionForm = () => {
         <div>
           <label>Small Businesses:</label>
           <select name="small_businesses" value={formData.small_businesses} onChange={handleChange} required>
-            <option value={0}>Not very good</option>
-            <option value={1}>Not very many</option>
-            <option value={2}>Somewhat good</option>
-            <option value={3}>Very good</option>
+            <option value={0}>Excellent</option>
+            <option value={1}>Fair</option>
+            <option value={2}>Good</option>
+            <option value={3}>Poor</option>
           </select>
         </div>
 
@@ -250,8 +250,10 @@ const PredictionForm = () => {
         <div>
           <label>Religious Attendance:</label>
           <select name="religious_attendance" value={formData.religious_attendance} onChange={handleChange} required>
-            <option value={0}>None</option>
-            <option value={1}>Yes</option>
+            <option value={0}>A few times a year</option>
+            <option value={1}>Never</option>
+            <option value={2}>Once or twice a month</option>
+            <option value={3}>Seldom</option>
           </select>
         </div>
 
@@ -259,8 +261,11 @@ const PredictionForm = () => {
         <div>
           <label>Parks and Recs:</label>
           <select name="parks_and_recs" value={formData.parks_and_recs} onChange={handleChange} required>
-            <option value={0}>No</option>
-            <option value={1}>Yes</option>
+            <option value={0}>Never used</option>
+            <option value={1}>Not at all satisfied</option>
+            <option value={2}>Not very much satisfied</option>
+            <option value={3}>Pretty much satisfied</option>
+            <option value={4}>Very much satisfied</option>
           </select>
         </div>
 
@@ -268,8 +273,10 @@ const PredictionForm = () => {
         <div>
           <label>Place to Work:</label>
           <select name="place_to_work" value={formData.place_to_work} onChange={handleChange} required>
-            <option value={0}>No</option>
-            <option value={1}>Yes</option>
+            <option value={0}>Excellent</option>
+            <option value={1}>Fair</option>
+            <option value={2}>Good</option>
+            <option value={3}>Poor</option>
           </select>
         </div>
 
@@ -277,8 +284,11 @@ const PredictionForm = () => {
         <div>
           <label>Airport:</label>
           <select name="airport" value={formData.airport} onChange={handleChange} required>
-            <option value={0}>No</option>
-            <option value={1}>Yes</option>
+            <option value={0}>Never used</option>
+            <option value={1}>Not at all satisfied</option>
+            <option value={2}>Not very much satisfied</option>
+            <option value={3}>Pretty much satisfied</option>
+            <option value={4}>Very much satisfied</option>
           </select>
         </div>
 
